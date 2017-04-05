@@ -1,0 +1,261 @@
+﻿<?xml version="1.0" encoding="utf-8"?><DEFECTS><DEFECT>
+    <SFA>
+      <FILEPATH>c:\users\falle\documents\visual studio 2017\projects\sorting_types\sorting_types\</FILEPATH>
+      <FILENAME>sorting_types.cpp</FILENAME>
+      <LINE>90</LINE>
+      <COLUMN>18</COLUMN>
+    </SFA>
+    <DEFECTCODE>28159</DEFECTCODE>
+    <DESCRIPTION>Попробуйте использовать "GetTickCount64" вместо "GetTickCount". Причина: GetTickCount overflows roughly every 49 days.  Code that does not take that into account can loop indefinitely.  GetTickCount64 operates on 64 bit values and does not have that problem</DESCRIPTION>
+    <FUNCTION>analyseQuickSort_unrecursion</FUNCTION>
+    <DECORATED>?analyseQuickSort_unrecursion@@YAXPAVresult@@H@Z</DECORATED>
+    <FUNCLINE>83</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>c:\users\falle\documents\visual studio 2017\projects\sorting_types\sorting_types\</FILEPATH>
+      <FILENAME>sorting_types.cpp</FILENAME>
+      <LINE>147</LINE>
+      <COLUMN>18</COLUMN>
+    </SFA>
+    <DEFECTCODE>28159</DEFECTCODE>
+    <DESCRIPTION>Попробуйте использовать "GetTickCount64" вместо "GetTickCount". Причина: GetTickCount overflows roughly every 49 days.  Code that does not take that into account can loop indefinitely.  GetTickCount64 operates on 64 bit values and does not have that problem</DESCRIPTION>
+    <FUNCTION>analyseQuickSort_unrecursion</FUNCTION>
+    <DECORATED>?analyseQuickSort_unrecursion@@YAXPAVresult@@H@Z</DECORATED>
+    <FUNCLINE>83</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>c:\users\falle\documents\visual studio 2017\projects\sorting_types\sorting_types\</FILEPATH>
+      <FILENAME>sorting_types.cpp</FILENAME>
+      <LINE>163</LINE>
+      <COLUMN>18</COLUMN>
+    </SFA>
+    <DEFECTCODE>28159</DEFECTCODE>
+    <DESCRIPTION>Попробуйте использовать "GetTickCount64" вместо "GetTickCount". Причина: GetTickCount overflows roughly every 49 days.  Code that does not take that into account can loop indefinitely.  GetTickCount64 operates on 64 bit values and does not have that problem</DESCRIPTION>
+    <FUNCTION>analyseQuickSort_recursion</FUNCTION>
+    <DECORATED>?analyseQuickSort_recursion@@YAXPAVresult@@H@Z</DECORATED>
+    <FUNCLINE>156</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>c:\users\falle\documents\visual studio 2017\projects\sorting_types\sorting_types\</FILEPATH>
+      <FILENAME>sorting_types.cpp</FILENAME>
+      <LINE>175</LINE>
+      <COLUMN>18</COLUMN>
+    </SFA>
+    <DEFECTCODE>28159</DEFECTCODE>
+    <DESCRIPTION>Попробуйте использовать "GetTickCount64" вместо "GetTickCount". Причина: GetTickCount overflows roughly every 49 days.  Code that does not take that into account can loop indefinitely.  GetTickCount64 operates on 64 bit values and does not have that problem</DESCRIPTION>
+    <FUNCTION>analyseQuickSort_recursion</FUNCTION>
+    <DECORATED>?analyseQuickSort_recursion@@YAXPAVresult@@H@Z</DECORATED>
+    <FUNCLINE>156</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>c:\users\falle\documents\visual studio 2017\projects\sorting_types\sorting_types\</FILEPATH>
+      <FILENAME>sorting_types.cpp</FILENAME>
+      <LINE>241</LINE>
+      <COLUMN>11</COLUMN>
+    </SFA>
+    <DEFECTCODE>6283</DEFECTCODE>
+    <DESCRIPTION>Память для "buffer" выделена при помощи оператора new [] для массивов, а удаляется скалярным оператором delete.</DESCRIPTION>
+    <FUNCTION>analyseMergeSort</FUNCTION>
+    <DECORATED>?analyseMergeSort@@YAXPAVresult@@H@Z</DECORATED>
+    <FUNCLINE>184</FUNCLINE>
+    <PATH>
+      <SFA>
+        <FILEPATH>c:\users\falle\documents\visual studio 2017\projects\sorting_types\sorting_types\</FILEPATH>
+        <FILENAME>sorting_types.cpp</FILENAME>
+        <LINE>209</LINE>
+        <COLUMN>18</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\falle\documents\visual studio 2017\projects\sorting_types\sorting_types\</FILEPATH>
+        <FILENAME>sorting_types.cpp</FILENAME>
+        <LINE>241</LINE>
+        <COLUMN>11</COLUMN>
+      </SFA>
+    </PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>c:\users\falle\documents\visual studio 2017\projects\sorting_types\sorting_types\</FILEPATH>
+      <FILENAME>sorting_types.cpp</FILENAME>
+      <LINE>191</LINE>
+      <COLUMN>18</COLUMN>
+    </SFA>
+    <DEFECTCODE>28159</DEFECTCODE>
+    <DESCRIPTION>Попробуйте использовать "GetTickCount64" вместо "GetTickCount". Причина: GetTickCount overflows roughly every 49 days.  Code that does not take that into account can loop indefinitely.  GetTickCount64 operates on 64 bit values and does not have that problem</DESCRIPTION>
+    <FUNCTION>analyseMergeSort</FUNCTION>
+    <DECORATED>?analyseMergeSort@@YAXPAVresult@@H@Z</DECORATED>
+    <FUNCLINE>184</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>c:\users\falle\documents\visual studio 2017\projects\sorting_types\sorting_types\</FILEPATH>
+      <FILENAME>sorting_types.cpp</FILENAME>
+      <LINE>245</LINE>
+      <COLUMN>18</COLUMN>
+    </SFA>
+    <DEFECTCODE>28159</DEFECTCODE>
+    <DESCRIPTION>Попробуйте использовать "GetTickCount64" вместо "GetTickCount". Причина: GetTickCount overflows roughly every 49 days.  Code that does not take that into account can loop indefinitely.  GetTickCount64 operates on 64 bit values and does not have that problem</DESCRIPTION>
+    <FUNCTION>analyseMergeSort</FUNCTION>
+    <DECORATED>?analyseMergeSort@@YAXPAVresult@@H@Z</DECORATED>
+    <FUNCLINE>184</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>c:\users\falle\documents\visual studio 2017\projects\sorting_types\sorting_types\</FILEPATH>
+      <FILENAME>sorting_types.cpp</FILENAME>
+      <LINE>264</LINE>
+      <COLUMN>18</COLUMN>
+    </SFA>
+    <DEFECTCODE>28159</DEFECTCODE>
+    <DESCRIPTION>Попробуйте использовать "GetTickCount64" вместо "GetTickCount". Причина: GetTickCount overflows roughly every 49 days.  Code that does not take that into account can loop indefinitely.  GetTickCount64 operates on 64 bit values and does not have that problem</DESCRIPTION>
+    <FUNCTION>analyseCocktailSort</FUNCTION>
+    <DECORATED>?analyseCocktailSort@@YAXPAVresult@@H@Z</DECORATED>
+    <FUNCLINE>254</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>c:\users\falle\documents\visual studio 2017\projects\sorting_types\sorting_types\</FILEPATH>
+      <FILENAME>sorting_types.cpp</FILENAME>
+      <LINE>297</LINE>
+      <COLUMN>18</COLUMN>
+    </SFA>
+    <DEFECTCODE>28159</DEFECTCODE>
+    <DESCRIPTION>Попробуйте использовать "GetTickCount64" вместо "GetTickCount". Причина: GetTickCount overflows roughly every 49 days.  Code that does not take that into account can loop indefinitely.  GetTickCount64 operates on 64 bit values and does not have that problem</DESCRIPTION>
+    <FUNCTION>analyseCocktailSort</FUNCTION>
+    <DECORATED>?analyseCocktailSort@@YAXPAVresult@@H@Z</DECORATED>
+    <FUNCLINE>254</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>c:\users\falle\documents\visual studio 2017\projects\sorting_types\sorting_types\</FILEPATH>
+      <FILENAME>sorting_types.cpp</FILENAME>
+      <LINE>314</LINE>
+      <COLUMN>18</COLUMN>
+    </SFA>
+    <DEFECTCODE>28159</DEFECTCODE>
+    <DESCRIPTION>Попробуйте использовать "GetTickCount64" вместо "GetTickCount". Причина: GetTickCount overflows roughly every 49 days.  Code that does not take that into account can loop indefinitely.  GetTickCount64 operates on 64 bit values and does not have that problem</DESCRIPTION>
+    <FUNCTION>analyseBubbleSort</FUNCTION>
+    <DECORATED>?analyseBubbleSort@@YAXPAVresult@@H@Z</DECORATED>
+    <FUNCLINE>306</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>c:\users\falle\documents\visual studio 2017\projects\sorting_types\sorting_types\</FILEPATH>
+      <FILENAME>sorting_types.cpp</FILENAME>
+      <LINE>338</LINE>
+      <COLUMN>18</COLUMN>
+    </SFA>
+    <DEFECTCODE>28159</DEFECTCODE>
+    <DESCRIPTION>Попробуйте использовать "GetTickCount64" вместо "GetTickCount". Причина: GetTickCount overflows roughly every 49 days.  Code that does not take that into account can loop indefinitely.  GetTickCount64 operates on 64 bit values and does not have that problem</DESCRIPTION>
+    <FUNCTION>analyseBubbleSort</FUNCTION>
+    <DECORATED>?analyseBubbleSort@@YAXPAVresult@@H@Z</DECORATED>
+    <FUNCLINE>306</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>c:\users\falle\documents\visual studio 2017\projects\sorting_types\sorting_types\</FILEPATH>
+      <FILENAME>sorting_types.cpp</FILENAME>
+      <LINE>359</LINE>
+      <COLUMN>18</COLUMN>
+    </SFA>
+    <DEFECTCODE>28159</DEFECTCODE>
+    <DESCRIPTION>Попробуйте использовать "GetTickCount64" вместо "GetTickCount". Причина: GetTickCount overflows roughly every 49 days.  Code that does not take that into account can loop indefinitely.  GetTickCount64 operates on 64 bit values and does not have that problem</DESCRIPTION>
+    <FUNCTION>analyseShellSort</FUNCTION>
+    <DECORATED>?analyseShellSort@@YAXPAVresult@@H@Z</DECORATED>
+    <FUNCLINE>348</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>c:\users\falle\documents\visual studio 2017\projects\sorting_types\sorting_types\</FILEPATH>
+      <FILENAME>sorting_types.cpp</FILENAME>
+      <LINE>386</LINE>
+      <COLUMN>18</COLUMN>
+    </SFA>
+    <DEFECTCODE>28159</DEFECTCODE>
+    <DESCRIPTION>Попробуйте использовать "GetTickCount64" вместо "GetTickCount". Причина: GetTickCount overflows roughly every 49 days.  Code that does not take that into account can loop indefinitely.  GetTickCount64 operates on 64 bit values and does not have that problem</DESCRIPTION>
+    <FUNCTION>analyseShellSort</FUNCTION>
+    <DECORATED>?analyseShellSort@@YAXPAVresult@@H@Z</DECORATED>
+    <FUNCLINE>348</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>c:\users\falle\documents\visual studio 2017\projects\sorting_types\sorting_types\</FILEPATH>
+      <FILENAME>sorting_types.cpp</FILENAME>
+      <LINE>406</LINE>
+      <COLUMN>18</COLUMN>
+    </SFA>
+    <DEFECTCODE>28159</DEFECTCODE>
+    <DESCRIPTION>Попробуйте использовать "GetTickCount64" вместо "GetTickCount". Причина: GetTickCount overflows roughly every 49 days.  Code that does not take that into account can loop indefinitely.  GetTickCount64 operates on 64 bit values and does not have that problem</DESCRIPTION>
+    <FUNCTION>analyseInsertionSort</FUNCTION>
+    <DECORATED>?analyseInsertionSort@@YAXPAVresult@@H@Z</DECORATED>
+    <FUNCLINE>395</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>c:\users\falle\documents\visual studio 2017\projects\sorting_types\sorting_types\</FILEPATH>
+      <FILENAME>sorting_types.cpp</FILENAME>
+      <LINE>427</LINE>
+      <COLUMN>18</COLUMN>
+    </SFA>
+    <DEFECTCODE>28159</DEFECTCODE>
+    <DESCRIPTION>Попробуйте использовать "GetTickCount64" вместо "GetTickCount". Причина: GetTickCount overflows roughly every 49 days.  Code that does not take that into account can loop indefinitely.  GetTickCount64 operates on 64 bit values and does not have that problem</DESCRIPTION>
+    <FUNCTION>analyseInsertionSort</FUNCTION>
+    <DECORATED>?analyseInsertionSort@@YAXPAVresult@@H@Z</DECORATED>
+    <FUNCLINE>395</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>c:\users\falle\documents\visual studio 2017\projects\sorting_types\sorting_types\</FILEPATH>
+      <FILENAME>sorting_types.cpp</FILENAME>
+      <LINE>446</LINE>
+      <COLUMN>18</COLUMN>
+    </SFA>
+    <DEFECTCODE>28159</DEFECTCODE>
+    <DESCRIPTION>Попробуйте использовать "GetTickCount64" вместо "GetTickCount". Причина: GetTickCount overflows roughly every 49 days.  Code that does not take that into account can loop indefinitely.  GetTickCount64 operates on 64 bit values and does not have that problem</DESCRIPTION>
+    <FUNCTION>analyseSelectionSort</FUNCTION>
+    <DECORATED>?analyseSelectionSort@@YAXPAVresult@@H@Z</DECORATED>
+    <FUNCLINE>436</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>c:\users\falle\documents\visual studio 2017\projects\sorting_types\sorting_types\</FILEPATH>
+      <FILENAME>sorting_types.cpp</FILENAME>
+      <LINE>474</LINE>
+      <COLUMN>18</COLUMN>
+    </SFA>
+    <DEFECTCODE>28159</DEFECTCODE>
+    <DESCRIPTION>Попробуйте использовать "GetTickCount64" вместо "GetTickCount". Причина: GetTickCount overflows roughly every 49 days.  Code that does not take that into account can loop indefinitely.  GetTickCount64 operates on 64 bit values and does not have that problem</DESCRIPTION>
+    <FUNCTION>analyseSelectionSort</FUNCTION>
+    <DECORATED>?analyseSelectionSort@@YAXPAVresult@@H@Z</DECORATED>
+    <FUNCLINE>436</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>c:\users\falle\documents\visual studio 2017\projects\sorting_types\sorting_types\</FILEPATH>
+      <FILENAME>sorting_types.cpp</FILENAME>
+      <LINE>520</LINE>
+      <COLUMN>8</COLUMN>
+    </SFA>
+    <DEFECTCODE>6031</DEFECTCODE>
+    <DESCRIPTION>Возвращаемое значение пропущено: "getchar".</DESCRIPTION>
+    <FUNCTION>main</FUNCTION>
+    <DECORATED>main</DECORATED>
+    <FUNCLINE>514</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>c:\users\falle\documents\visual studio 2017\projects\sorting_types\sorting_types\</FILEPATH>
+      <FILENAME>sorting_types.cpp</FILENAME>
+      <LINE>521</LINE>
+      <COLUMN>8</COLUMN>
+    </SFA>
+    <DEFECTCODE>6031</DEFECTCODE>
+    <DESCRIPTION>Возвращаемое значение пропущено: "getchar".</DESCRIPTION>
+    <FUNCTION>main</FUNCTION>
+    <DECORATED>main</DECORATED>
+    <FUNCLINE>514</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT></DEFECTS>
