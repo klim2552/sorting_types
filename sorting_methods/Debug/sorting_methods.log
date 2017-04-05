@@ -1,0 +1,4 @@
+﻿  stdafx.cpp
+  sorting_methods.cpp
+c:\users\falle\documents\visual studio 2017\projects\sorting_methods\sorting_methods\sorting_methods.cpp(518): fatal error C1010: непредвиденный конец файла во время поиска предкомпилированного заголовка. Возможно, вы забыли добавить директиву "#include "stdafx.h"" в источник.
+C:\Program Files (x86)\Microsoft Visual Studio\2017\Enterprise\Common7\IDE\VC\VCTargets\Microsoft.CppCommon.targets(358,5): error MSB6006: "CL.exe" завершилась с кодом 2.
